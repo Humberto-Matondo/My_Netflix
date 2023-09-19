@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0 !important;
+}
+
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    background-color: rgb(250, 250, 250);
+}
+
+section {
+    color: rgb(90, 89, 89);
+}
+
+body {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/ec4afc4c-3511-4f56-bfed-f51273e4f398/AO-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+.img {
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+@media only screen and (min-width: 740px) {
+    nav {
+        background-color: rgba(0, 0, 0, 0.600);
+    }
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.600);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+@media only screen and (min-width: 740px) {
+    .background {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.600);
+    }
+}
+
+.sign-in {
+    order: 1;
+    background-color: rgba(0, 0, 0, 0.752);
+    width: 450px;
+    height: 600px;
+    border: 1px solid #000000;
+    /* Borda vermelha */
+    border-radius: 10px;
+    /* Cantos arredondados */
+}
+
+.contacts {
+    order: 2;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.752);
+}
+
+
+.contacts>p {
+    margin: 30px;
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+.contacts p {
+    margin-left: 100px;
+}
+
+.contacts .um {
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.contacts .dois {
+    margin-top: -85px;
+    margin-left: 300px;
+
+}
+
+.contacts .tres {
+    margin: -65px 0;
+    padding-left: 570px;
+}
+
+.contacts .quatro {
+    margin: 23px;
+    margin-left: 750px;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.sign-in a:hover {
+    text-decoration: underline;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+}
+
+.sign-in .um {
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+}
+
+.sign-in .dois {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sign-in .tres {
+    text-decoration: none;
+    color: rgb(46, 46, 208);
+}
+
+.sign-in .signIN {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 30px;
+    padding-left: 17%;
+    padding-top: 8%;
+}
+
+.sign-in form {
+    padding-left: 13%;
+    padding-top: 7%;
+    margin: 4%;
+}
+
+form input[type="text"] {
+    background-color: #353434;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    border: 1px solid #000000;
+    /* Borda vermelha */
+    border-radius: 4px;
+    /* Cantos arredondados */
+    padding: 15px;
+    /* Espaçamento interno */
+    padding-right: 95px;
+    font-size: 15px;
+    /* Tamanho da fonte */
+}
+
+
+
+form input[type="password"] {
+    background-color: #353434;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    border: 1px solid #000000;
+    /* Borda vermelha */
+    border-radius: 4px;
+    /* Cantos arredondados */
+    padding: 15px;
+    /* Espaçamento interno */
+    padding-right: 95px;
+    font-size: 15px;
+    /* Tamanho da fonte */
+}
+
+form input[type="text"]:focus {
+    outline: transparent;
+}
+
+form input[type="password"] {
+    outline: transparent;
+}
+
+.sign-in .L-um {
+    /* hover ou algo */
+    position: relative;
+    top: 40%;
+    padding: 1px;
+    font-size: 10px;
+    color: #888;
+}
+
+.sign-in .L-dois {
+    /* hover ou algo */
+    position: relative;
+    padding: 1px;
+    font-size: 10px;
+    color: #888;
+}
+
+[meu-atributo] {
+    font-size: 13px;
+    color: rgb(159, 156, 156);
+    padding-left: 3px;
+}
+
+[atributo] {
+    font-size: 13px;
+    position: relative;
+    font-family: sans-serif;
+    top: 40px;
+    margin-left: 80px;
+}
+
+[atributo="um"] {
+    font-size: 16px;
+    position: relative;
+    font-family: sans-serif;
+    top: 40px;
+    padding-bottom: 15px;
+    margin-left: 80px;
+}
+
+button {
+    position: relative;
+    left: 40%;
+    font-family: sans-serif;
+    margin-top: 1px;
+    font-size: 18px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-left: -39%;
+    border: 10px solid red;
+    /* Borda vermelha */
+    border-radius: 4px;
+    /* Cantos arredondados */
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+   
+}
+
+@media only screen and (min-width: 360px){
+    .sign-in button {
+        max-width: 84%;
+        width: 100%;
+    }
+}
+.sign-in .um {
+    position: relative;
+    top: 9px;
+    color: rgb(159, 156, 156);
+    font-size: 12px;
+    padding-left: 95px;
+    font-family: sans-serif;
+
+}
+
+.sign-in .L-treS {
+    position: relative;
+    top: 9px;
+    left: 10px;
+    color: rgb(159, 156, 156);
+    font-size: 13px;
+    font-family: sans-serif;
+
+}
+
+form input[type="checkbox"] {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
