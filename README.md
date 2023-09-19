@@ -8,6 +8,7 @@
 </head>
 
 <body>
-       <img src="https://ibb.co/tYtk2Gs" alt="Login-page-NETFLIX">   
+        <a href="https://ibb.co/tYtk2Gs"><img src="https://i.ibb.co/yg1Gk9y/netflix.png" alt="netflix" border="0"></a>
+       <img src="https://i.ibb.co/yg1Gk9y/netflix.png" alt="Login-page-NETFLIX">   
 </body>
 </html>
