@@ -8,7 +8,6 @@
 </head>
 
 <body>
-    ![NetFlix](https://drive.google.com/file/d/1G5WOm920lj5eR-rQIokDZmvECjj-UsYM/view?usp=drive_link)
-    
+       <img src="https://ibb.co/tYtk2Gs" alt="Login-page-NETFLIX">   
 </body>
 </html>
